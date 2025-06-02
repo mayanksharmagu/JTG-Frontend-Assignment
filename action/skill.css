@@ -1,0 +1,247 @@
+body {
+    font-family: "Inter", sans-serif;
+    margin-top: 0px;
+    overflow-x: hidden;  
+    overflow-y: auto;
+    background-color: #F0F0F6;
+    
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 152px;
+    width: 100%;
+    color: #fff;
+    position: fixed;
+    /* z-index: 1000; */
+    background-color: #fff;
+    margin-top: 0px;
+    box-shadow: 4px 0px 10px rgba(47, 122, 249, 0.1);
+}
+
+.logo img {
+    height: 76px;
+    width: 158px;
+    margin-left: 96px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 604px;
+    height: 37px;
+    gap: 40px;
+    margin-right: 200px;
+    margin-top: 40.5px;
+    margin-bottom: 30px;
+}
+.nav p {
+    font-size: 14px;
+    color: black;
+    font-weight: 450;
+}
+.nav p a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav p a :hover {
+    cursor: pointer;
+    background-color: #ffb400;
+}
+
+#home {
+    border-radius: 5px;
+    /* background-color: #ffb400; */
+    padding: 10px 14px;
+    
+} 
+
+#home p a {
+    text-decoration: none;
+}
+#skill {
+    border-radius: 5px;
+    padding: 10px 14px;
+}
+.ski {
+    background-color: #ffb400;
+}
+
+#skill:hover {
+    background-color: #ffb400;
+}
+
+#home:hover{
+    background-color: #ffb400;
+}
+#edu:hover {
+    cursor: pointer;
+}
+
+/* middle */
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px;
+    background-color: #F0F0F6;
+    /* margin-top: 200px; */
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 200px;
+}
+
+.heading h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.heading p {
+    color: #666;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.skill-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    height: 300px;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    margin-bottom: 15px;
+    font-size: 1.25rem;
+    color: #333;
+}
+
+.card p {
+    font-weight: 500;
+    margin: 10px 0 5px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.95rem;
+}
+
+.bar {
+    background: #eee;
+    border-radius: 5px;
+    height: 6px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.bar div {
+    height: 6px;
+    background: linear-gradient(to right, #facc15, #f59e0b);
+    border-radius: 5px;
+}
+
+#add{
+    text-decoration: none;
+    border: none;
+    padding: 10px 25px;
+    background-color: #ffb400;
+    margin-top: 50px;
+    margin-left: 540px;
+    border-radius: 10px;
+}
+
+#add a{
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 20px;
+    color: black;
+}
+
+
+/* mwoueyixckswocidN */ 
+
+
+/* dydcbwcyw */
+
+
+
+.footer {
+    background-color: #F0F0F6;
+}
+
+.icons {
+    width: 970px;
+    height: 144px;
+    margin-left: 235px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F0F0F6;
+}
+
+
+.lower-logo {
+    margin-top: 45px;
+    margin-left: 98px;
+}
+
+.bottom {
+    height: 230px;
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 98px;
+    margin-top: 40px;
+}
+
+.bottom div {
+    height: 230px;
+    width: 177px;
+    
+}
+
+.images img {
+    margin-top: 7px;
+}
+
+.images p {
+    font-weight: 400;
+    font-size: 12px;
+    color: #767676;
+    margin-top: 0px;
+}
+
+#pfonts {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 1);
+   
+}
+
+.socials img {
+    margin-bottom: 10px;
+}
+
+.copyright p {
+    margin-top: 30px;
+    margin-left: 578px;
+    padding-bottom: 30px;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(118, 118, 118, 1);
+}
